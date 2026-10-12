@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090b12">
+  <title>PS5 Modding Hub</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #090b12;
+      color: #f4f6ff;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 24px 8%;
+      border-bottom: 1px solid #272c3b;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: #70a5ff;
+    }
+
+    .hero {
+      max-width: 900px;
+      margin: 90px auto 50px;
+      padding: 0 24px;
+      text-align: center;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 8px 12px;
+      border: 1px solid #344b78;
+      border-radius: 20px;
+      color: #91b7ff;
+      font-size: 12px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 7vw, 68px);
+      margin: 24px 0 16px;
+    }
+
+    h1 span { color: #70a5ff; }
+
+    p {
+      color: #aeb7ca;
+      line-height: 1.7;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    a.button {
+      padding: 13px 20px;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: bold;
+      background: #70a5ff;
+      color: #080b13;
+    }
+
+    a.secondary {
+      color: #f4f6ff;
+      background: #191e2b;
+      border: 1px solid #30384b;
+    }
+
+    .cards {
+      max-width: 1000px;
+      margin: 0 auto 70px;
+      padding: 0 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: #121622;
+      border: 1px solid #292f41;
+      padding: 24px;
+      border-radius: 14px;
+    }
+
+    .card h2 { font-size: 19px; }
+
+    .notice {
+      max-width: 950px;
+      margin: 0 auto 50px;
+      padding: 18px 22px;
+      border-left: 3px solid #70a5ff;
+      background: #121622;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      border-top: 1px solid #272c3b;
+      color: #7e899e;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">PS5 / MODDING</div>
+    <div>Community Hub</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="tag">HOMEbrew · RESEARCH · COMPATIBILITY</div>
+      <h1>Explore the <span>PS5</span></h1>
+      <p>
+        Informationen über Firmware-Kompatibilität,
+        Homebrew-Forschung und Konsolen-Sicherheit.
+        Dokumentiere Projekte und entdecke technische Ressourcen.
+      </p>
+      <div class="buttons">
+        <a class="button"
+           href="https://github.com/topics/ps5-homebrew"
+           target="_blank" rel="noopener noreferrer">
+          GitHub-Projekte
+        </a>
+        <a class="button secondary"
+           href="https://www.playstation.com/support/">
+          PlayStation Support
+        </a>
+      </div>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <h2>Firmware</h2>
+        <p>Dokumentiere Firmware-Versionen und prüfe
+           die Kompatibilität anhand nachvollziehbarer Quellen.</p>
+      </article>
+
+      <article class="card">
+        <h2>Homebrew</h2>
+        <p>Informiere dich über Community-Projekte,
+           Entwicklungswerkzeuge und Sicherheitsforschung.</p>
+      </article>
+
+      <article class="card">
+        <h2>BO2 Modding</h2>
+        <p>Dokumentiere Modding-Informationen zu
+           Black Ops II und unterscheide bestätigte
+           Funktionen von unbestätigten Behauptungen.</p>
+      </article>
+    </section>
+
+    <section class="notice">
+      <strong>Sicherheitshinweis</strong>
+      <p>
+        Diese Website führt keinen Jailbreak aus und installiert
+        keine Software auf einer Konsole. Prüfe Downloads,
+        Firmware-Anforderungen und mögliche Kontorisiken
+        vor der Verwendung.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Unabhängiges Community-Projekt · Nicht mit Sony Interactive
+    Entertainment verbunden.
+  </footer>
+</body>
+</html>
